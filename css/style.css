@@ -167,3 +167,64 @@ background-color: e1e1e1;
     line-height: 24px;
     letter-spacing: 0.025em;
 }
+.intro-block
+{
+    position: relative;
+    background: #f7f7f7;
+    margin: 50px 0px 0px;
+    text-align-last: center;
+    padding: 70px 25px 40px;
+}
+.intro-block:hover, .intro-block.active
+{
+background: #0aabe1;
+}
+
+.intro-block:hover
+{
+    transition: .6s ease;
+    -wenkit-transition: .6s ease;
+    -moz-transition: .6s ease;
+    -o-transition: .6s ease;
+    -ms-transition: .6s ease;
+}
+.intro-block .intro-icon
+{
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px;
+}
+
+.intro-block .fas
+{
+    width: 63px;
+    height: 63px;
+    font-size: 30px;
+    color: white;
+    line-height: 2;
+    background: deepskyblue;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #cceef9;
+}
+.intro-block:hover .fas, .intro-block.active .fas
+{
+    background: white;
+    color: deepskyblue;
+    box-shadow: 0px 0px 0px 10px deepskyblue;
+}
+.intro-block h3
+{
+    font-size: 18px;
+    color: deepskyblue;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.intro-block p{
+    color: #505050;
+}
+.intro-block:hover h3, .intro-block:hover p
+{
+    color: #f6f6f6;
+}
