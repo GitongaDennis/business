@@ -183,7 +183,7 @@ background: #0aabe1;
 .intro-block:hover
 {
     transition: .6s ease;
-    -wenkit-transition: .6s ease;
+    -webkit-transition: .6s ease;
     -moz-transition: .6s ease;
     -o-transition: .6s ease;
     -ms-transition: .6s ease;
@@ -222,9 +222,186 @@ background: #0aabe1;
     margin-bottom: 15px;
 }
 .intro-block p{
-    color: #505050;
+    color: #795a5a;
 }
 .intro-block:hover h3, .intro-block:hover p
 {
     color: #f6f6f6;
 }
+.feature-area
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/campain1.jpg );
+    background-position: center;
+    background-attachment: fixed;
+}
+.feature-area ,title
+{
+ color: white
+}
+.feature-area .sub-heading p
+{
+ color: white
+}
+.title h2,p
+{
+    color: white;
+}
+.title .sub-heading p
+{
+    color: #f3f3f3;
+    border-color: deepskyblue
+} 
+.single-feature
+{
+    position: relative;
+    width: 325px;
+    float: left;
+    padding: 30px 0;
+    text-align: center;
+    border-right: 1px solid #65c8e5;
+    border-bottom: 1px solid #65c8e5;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+}
+.feature-block:after
+{
+    content: "";
+    display: table;
+}
+
+.feature-block:after
+{
+    clear:both;
+}
+.featured-icon
+{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.single-feature .fas
+{
+    border: 2px solid #fff; 
+    padding: 15px;   
+ border-radius: 50%;
+    font-size: 30px;
+    background-color: #00a7dd;
+    color: white;
+    width: 64px;
+    height: 64px;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+}
+.feature-block:hover .single-feature
+{
+    border-color: white;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+
+}
+.single-feature:hover .featured-icon .fas
+{
+    border:2px solid #00a7dd;
+    background: white;
+    color: deepskyblue;
+}
+.single-feature:nth-of-type(even)
+{
+    border-right: none;
+}
+.single-feature:nth-last-child(2)
+{
+    border-bottom: none;
+}
+.single-feature:last-child
+{
+    border-bottom: none;
+}
+/*Icons issues above 3 steps*/
+.feature-area
+{
+    padding: 100px 0;
+}
+ .feature-mockup
+ {
+     bottom: -220px;
+     position: relative;
+
+ }
+ .title .sub-heading p
+ {
+     color: white;
+ }
+ .more-feature-area .title h2
+ {
+ color: black;
+ }
+ .more-feature-area .title p
+ {
+ color: grey;
+ }
+ .more-feature-area
+ {
+     padding: 100px 0;
+ }
+ .feature-list ul
+ {
+     list-style: none;
+ }
+ .feature-list li
+ {
+     position: relative;
+     margin-bottom: 30px;
+     padding-left: 80px; 
+ }
+ .feature-list i:hover
+ {
+     color: white;
+     background: #00a7dd;
+     transition: .5s ease;
+     -webkit-transition: .5s ease;
+     -moz-transition: .5s ease;
+     -o-transition: .5s ease;
+     -ms-transition: .5s ease;
+ }
+ .feature-icon
+ {
+     position: absolute;
+     left:0;
+ }
+ .feature-icon i
+ {
+     width: 63px;
+     height: 63px;
+     text-align: center;
+     font-size: 30px;
+     background: white;
+     color: deepskyblue;
+     border-radius: 50%;
+     border: 2px solid deepskyblue;
+     line-height: 63px;
+ }
+ .feature-details h3
+ {
+     color: deepskyblue;
+     font-weight: 700px;
+     text-transform: uppercase;
+ }
+ .feature-details p
+ {
+     color: #616161;
+     font-weight: 200;
+ }
+ .more-feature-area
+ {
+     margin-left: 70px;
+ }
+ 
